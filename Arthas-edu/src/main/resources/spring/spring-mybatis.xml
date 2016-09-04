@@ -36,4 +36,17 @@
         <property name="configLocation" value="classpath:mybatis/mybatis-config.xml" />
         <property name="dataSource" ref="dataSource" />
     </bean>
+
+    <!-- SqlSession模板类实例 -->
+    <bean id="sessionTemplate" class="org.mybatis.spring.SqlSessionTemplate" destroy-method="close">
+        <constructor-arg index="0" ref="sqlSessionFactory" />
+    </bean>
+
+    <!--======= 事务配置 Begin ================= -->
+    <!-- 事务管理器（由Spring管理MyBatis的事务） -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!-- 关联数据源 -->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!--======= 事务配置 End =================== -->
 </beans>
