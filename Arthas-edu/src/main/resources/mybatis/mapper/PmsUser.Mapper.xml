@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper>
+<mapper namespace="tk.jingzing.edu.user.dao.impl.PmsUserDaoImpl">
+    <!-- 用户信息表 -->
+    <sql id="pms_user"> edu_edmo_pms_user </sql>
 
+    <resultMap id="beanMap" type="PmsUser">
+        <id column="id" property="id" />
+        <result column="version" property="version" />
+        <result column="main_user_id" property="mainUserId" />
+        <result column="user_no" property="userNo" />
+        <result column="user_pwd" property="userPwd" />
+        <result column="create_time" property="createTime" />
+        <result column="user_name" property="userName" />
+        <result column="email" property="email" />
+        <result column="mobile_no" property="mobileNo" />
+        <result column="status" property="status" />
+        <result column="user_type" property="userType" />
+        <result column="last_login_time" property="lastLoginTime" />
+        <result column="is_changed_pwd" property="isChangedPwd" javaType="Boolean" jdbcType="INTEGER"/>
+        <result column="pwd_error_count" property="pwdErrorCount" />
+        <result column="pwd_error_time" property="pwdErrorTime" />
+        <result column="remark" property="remark" />
+    </resultMap>
 </mapper>
