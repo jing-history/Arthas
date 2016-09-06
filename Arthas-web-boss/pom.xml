@@ -12,6 +12,7 @@
 
     <groupId>tk.jingzing.web</groupId>
     <artifactId>Arthas-web-boss</artifactId>
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>
