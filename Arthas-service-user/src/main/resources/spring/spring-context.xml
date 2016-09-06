@@ -28,4 +28,5 @@
     <aop:aspectj-autoproxy proxy-target-class="true" />
 
     <import resource="spring-mybatis.xml" />
+    <import resource="dubbo-provider.xml" />
 </beans>
