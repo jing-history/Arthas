@@ -8,10 +8,10 @@
 	<!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
 	<dubbo:application name="edu-web-boss" />
 
-	<!-- 使用zookeeper注册中心暴露服务地址 -->
+	<!-- 使用zookeeper注册中心暴露服务地址 45.32.12.187 -->
 	<!-- 注册中心地址 -->
-	<dubbo:registry protocol="zookeeper" address="45.32.12.187:2181" />
-	
+	<dubbo:registry protocol="zookeeper" address="192.168.40.212:2181" />
+
 	<!-- 用户服务接口 -->
 	<dubbo:reference interface="tk.jingzing.facade.service.PmsUserFacade" id="pmsUserFacade" check="false" />
 
