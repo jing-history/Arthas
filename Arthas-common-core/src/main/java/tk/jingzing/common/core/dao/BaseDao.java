@@ -31,7 +31,7 @@ public interface BaseDao<T> {
 	/**
 	 * 批量保存对象.
 	 * 
-	 * @param entity
+	 * @param list
 	 *            .
 	 * @return id .
 	 */
@@ -49,7 +49,7 @@ public interface BaseDao<T> {
 	/**
 	 * 批量更新对象.
 	 * 
-	 * @param entity
+	 * @param list
 	 *            .
 	 * @return int .
 	 */

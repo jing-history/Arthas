@@ -13,6 +13,10 @@
     <groupId>tk.jingzing.common.core</groupId>
     <artifactId>Arthas-common-core</artifactId>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>tk.jingzing.common</groupId>

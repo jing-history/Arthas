@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="tk.jingzing.service.dao.impl.PmsUserDaoImpl">
     <!-- 用户信息表 -->
-    <sql id="pms_user"> edu_edmo_pms_user </sql>
+    <sql id="pms_user">edu_edmo_pms_user</sql>
 
     <resultMap id="beanMap" type="PmsUser">
         <id column="id" property="id" />
