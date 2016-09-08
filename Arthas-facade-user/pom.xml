@@ -21,6 +21,10 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>tk.jingzing.common</groupId>
+            <artifactId>Arthas-common</artifactId>
+            <version>${Arthas-common.version}</version>
+        </dependency>
     </dependencies>
 </project>

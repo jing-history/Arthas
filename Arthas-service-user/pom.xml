@@ -18,7 +18,22 @@
         <dependency>
             <groupId>tk.jingzing.facade</groupId>
             <artifactId>Arthas-facade-user</artifactId>
-            <version>${edu-facade-user.version}</version>
+            <version>${Arthas-facade-user.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>tk.jingzing.common</groupId>
+            <artifactId>Arthas-common</artifactId>
+            <version>${Arthas-common.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>tk.jingzing.common.config</groupId>
+            <artifactId>Arthas-common-config</artifactId>
+            <version>${Arthas-common-config.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>tk.jingzing.common.core</groupId>
+            <artifactId>Arthas-common-core</artifactId>
+            <version>${Arthas-common-core.version}</version>
         </dependency>
 
         <!-- Common Dependency Begin -->

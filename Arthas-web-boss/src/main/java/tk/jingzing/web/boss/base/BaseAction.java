@@ -1,9 +1,9 @@
 package tk.jingzing.web.boss.base;
 
 
+import tk.jingzing.common.web.constants.SessionConstant;
+import tk.jingzing.common.web.struts.Struts2ActionSupport;
 import tk.jingzing.facade.entity.PmsUser;
-import tk.jingzing.web.common.constant.SessionConstant;
-import tk.jingzing.web.common.struts.Struts2ActionSupport;
 
 /**
  * @描述: Web系统权限模块基础支撑Action.

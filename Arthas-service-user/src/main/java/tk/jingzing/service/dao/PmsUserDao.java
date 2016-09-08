@@ -1,7 +1,8 @@
 package tk.jingzing.service.dao;
 
+
+import tk.jingzing.common.core.dao.BaseDao;
 import tk.jingzing.facade.entity.PmsUser;
-import tk.jingzing.service.common.dao.BaseDao;
 
 /**
  * 

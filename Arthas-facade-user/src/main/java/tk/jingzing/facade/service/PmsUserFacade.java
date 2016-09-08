@@ -1,7 +1,8 @@
 package tk.jingzing.facade.service;
 
-import tk.jingzing.facade.common.page.PageBean;
-import tk.jingzing.facade.common.page.PageParam;
+
+import tk.jingzing.common.page.PageBean;
+import tk.jingzing.common.page.PageParam;
 import tk.jingzing.facade.entity.PmsUser;
 
 import java.util.Map;

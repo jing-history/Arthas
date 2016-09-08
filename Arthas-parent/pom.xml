@@ -12,6 +12,10 @@
         <module>../Arthas-facade-user</module>
         <module>../Arthas-service-user</module>
         <module>../Arthas-web-boss</module>
+        <module>../Arthas-common</module>
+        <module>../Arthas-common-config</module>
+        <module>../Arthas-common-core</module>
+        <module>../Arthas-common-web</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -45,10 +49,16 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <edu-demo.version>1.0-SNAPSHOT</edu-demo.version>
-        <edu-facade-user.version>1.0-SNAPSHOT</edu-facade-user.version>
-        <edu-service-user.version>1.0-SNAPSHOT</edu-service-user.version>
-        <edu-web-boss.version>1.0-SNAPSHOT</edu-web-boss.version>
+        <!-- common projects -->
+        <Arthas-common.version>1.0-SNAPSHOT</Arthas-common.version>
+        <Arthas-common-config.version>1.0-SNAPSHOT</Arthas-common-config.version>
+        <Arthas-common-core.version>1.0-SNAPSHOT</Arthas-common-core.version>
+        <Arthas-common-web.version>1.0-SNAPSHOT</Arthas-common-web.version>
+
+        <Arthas-demo.version>1.0-SNAPSHOT</Arthas-demo.version>
+        <Arthas-facade-user.version>1.0-SNAPSHOT</Arthas-facade-user.version>
+        <Arthas-service-user.version>1.0-SNAPSHOT</Arthas-service-user.version>
+        <Arthasu-web-boss.version>1.0-SNAPSHOT</Arthasu-web-boss.version>
 
         <!-- frameworks -->
         <org.springframework.version>3.2.4.RELEASE</org.springframework.version>

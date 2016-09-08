@@ -2,8 +2,8 @@ package tk.jingzing.service.biz;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tk.jingzing.facade.common.page.PageBean;
-import tk.jingzing.facade.common.page.PageParam;
+import tk.jingzing.common.page.PageBean;
+import tk.jingzing.common.page.PageParam;
 import tk.jingzing.facade.entity.PmsUser;
 import tk.jingzing.service.dao.PmsUserDao;
 

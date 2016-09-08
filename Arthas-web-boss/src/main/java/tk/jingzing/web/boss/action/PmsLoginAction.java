@@ -6,12 +6,12 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
+import tk.jingzing.common.web.constants.SessionConstant;
 import tk.jingzing.facade.entity.PmsUser;
 import tk.jingzing.facade.enums.UserStatusEnum;
 import tk.jingzing.facade.enums.UserTypeEnum;
 import tk.jingzing.facade.service.PmsUserFacade;
 import tk.jingzing.web.boss.base.BaseAction;
-import tk.jingzing.web.common.constant.SessionConstant;
 
 import java.util.Date;
 

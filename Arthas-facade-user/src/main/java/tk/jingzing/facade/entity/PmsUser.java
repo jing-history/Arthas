@@ -1,7 +1,7 @@
 package tk.jingzing.facade.entity;
 
 
-import tk.jingzing.facade.common.entity.BaseEntity;
+import tk.jingzing.common.entity.BaseEntity;
 
 import java.util.Date;
 

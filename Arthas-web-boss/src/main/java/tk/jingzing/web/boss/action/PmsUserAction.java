@@ -6,7 +6,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
-import tk.jingzing.facade.common.page.PageBean;
+import tk.jingzing.common.page.PageBean;
 import tk.jingzing.facade.entity.PmsUser;
 import tk.jingzing.facade.enums.UserStatusEnum;
 import tk.jingzing.facade.enums.UserTypeEnum;
