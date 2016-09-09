@@ -2,12 +2,8 @@ package tk.jingzing.service.dao.impl;
 
 import org.springframework.stereotype.Repository;
 import tk.jingzing.common.core.dao.BaseDaoImpl;
-import tk.jingzing.common.page.PageBean;
-import tk.jingzing.common.page.PageParam;
 import tk.jingzing.facade.entity.PmsUser;
 import tk.jingzing.service.dao.PmsUserDao;
-
-import java.util.Map;
 
 
 /**
@@ -30,10 +26,5 @@ public class PmsUserDaoImpl extends BaseDaoImpl<PmsUser> implements PmsUserDao {
 
 	public PmsUser findByUserNo(String userNo) {
 		return super.getSqlSession().selectOne(getStatement("findByUserNo"), userNo);
-	}
-
-	@Override
-	public PageBean listPage(PageParam pageParam, Map<String, Object> paramMap) {
-		return null;
 	}
 }
