@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <% 
-	//response.sendRedirect("login_loginPage.action"); 
+	//response.sendRedirect("login_loginPage.action"); test
 	request.getRequestDispatcher("login_loginPage.action").forward(request,response);
 %>
