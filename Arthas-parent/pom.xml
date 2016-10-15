@@ -7,7 +7,7 @@
     <groupId>tk.jingzing</groupId>
     <artifactId>Arthas-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
+    <!--<modules>
         <module>../Arthas-edu</module>
         <module>../Arthas-facade-user</module>
         <module>../Arthas-service-user</module>
@@ -16,11 +16,24 @@
         <module>../Arthas-common-config</module>
         <module>../Arthas-common-core</module>
         <module>../Arthas-common-web</module>
-    </modules>
+    </modules>-->
     <packaging>pom</packaging>
 
     <name>Arthas-parent</name>
     <url>http://maven.apache.org</url>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://10.211.55.9:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://10.211.55.9:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <!-- 用第三方仓库 -->
     <repositories>
